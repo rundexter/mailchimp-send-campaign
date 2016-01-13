@@ -2,25 +2,13 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "campaign_id",
+            "title":"Workflow ID"
         }
-        */
     ],
-    //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
-    ],
-    "title": "Mailchimp - Send Campaign" /* Required.A display name for the module */
+    "outputs": [],
+    "icon": "dex-mailchimp",
+    "title": "Mailchimp - Send Campaign"
 }
