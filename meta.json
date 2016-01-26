@@ -9,6 +9,9 @@
         }
     ],
     "outputs": [],
+    "providers": [{
+        "name": "mailchimp "
+    }],
     "icon": "dex-mailchimp",
     "title": "Mailchimp - Send Campaign"
 }
